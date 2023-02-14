@@ -52,7 +52,7 @@
   ansible.builtin.rpm_key:
     key: "https://yum.enpass.io/RPM-GPG-KEY-enpass-signing-key"
   when:
-    - ansible_pkg_mgr in [ "yum", "dnf", "zypper" ]
+    - ansible_pkg_mgr == "zypper"
 
 - name: Install enpass
   ansible.builtin.package:
