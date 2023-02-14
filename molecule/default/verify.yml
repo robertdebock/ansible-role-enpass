@@ -5,5 +5,9 @@
   gather_facts: yes
 
   tasks:
-    - name: Check if connection still works
-      ansible.builtin.ping:
+    - name: Get status of /opt/enpass/Enpass
+      ansible.builtin.stat:
+        path: /opt/enpass/Enpass
+      register: enpass_veriy_binary
+      failed_when:
+        - not enpass_veriy_binary.stat.exists
