@@ -18,6 +18,16 @@ _enpass_requirements:
     - libgtk-3-0
     - libpulse0
     - libgl1
+  RedHat-7:
+    - cups-libs
+    - fontconfig
+    - xcb-util-keysyms
+    - xcb-util-renderutil
+    - libSM
+    - libxkbcommon-x11
+    - gtk3
+    - pulseaudio-libs
+    - glibc
   RedHat:
     - cups-libs
     - fontconfig
@@ -44,7 +54,7 @@ _enpass_requirements:
     - libxkbcommon-x11-0
     - libpulse0
     - libgtk-3-0
-enpass_requirements: "{{ _enpass_requirements[ansible_os_family] | default(_enpass_requirements['default']) }}"
+enpass_requirements: "{{ _enpass_requirements[ansible_os_family ~ '-' ~ ansible_distribution_major_version] | default(_enpass_requirements[ansible_os_family] | default(_enpass_requirements['default'])) }}"
 
 enpass_yum_repositories:
   - name: enpass
