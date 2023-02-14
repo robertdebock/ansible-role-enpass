@@ -29,6 +29,6 @@ galaxy_info:
 
   galaxy_tags:
     - enpass
-    - password-manager
+    - password_manager
 
 dependencies: []
