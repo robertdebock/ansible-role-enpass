@@ -4,7 +4,7 @@ Install the Enpass password manager on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-enpass/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-enpass/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-enpass/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-enpass)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/enpass)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/enpass)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-enpass.svg)](https://github.com/robertdebock/ansible-role-enpass/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-enpass/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-enpass/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-enpass/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-enpass)|[![quality](https://img.shields.io/ansible/quality/61515)](https://galaxy.ansible.com/robertdebock/enpass)|[![downloads](https://img.shields.io/ansible/role/d/61515)](https://galaxy.ansible.com/robertdebock/enpass)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-enpass.svg)](https://github.com/robertdebock/ansible-role-enpass/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -41,7 +41,7 @@ Also see a [full explanation and example](https://robertdebock.nl/how-to-use-the
 
 - pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-enpass/blob/master/requirements.txt).
 
-## [Status of used roles](#status-of-requirements)
+## [State of used roles](#state-of-used-roles)
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
