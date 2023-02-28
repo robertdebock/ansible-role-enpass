@@ -5,4 +5,4 @@
 repository:
   description: Install the Enpass password manager on your system.
   homepage: https://robertdebock.nl/
-  topics: enpass, passwordmanager, password, ansible, molecule, tox, playbook, hacktoberfest
+  topics: enpass, passwordmanager, password, ansible, molecule, tox, playbook
