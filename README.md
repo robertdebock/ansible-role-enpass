@@ -1,4 +1,4 @@
-# Ansible role [enpass](#enpass)
+# [Ansible role enpass](#enpass)
 
 Install the Enpass password manager on your system.
 
