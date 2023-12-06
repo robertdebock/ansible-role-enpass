@@ -63,7 +63,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |container|tags|
 |---------|----|
 |[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
-|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
+|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|7, 8|
 |[Fedora](https://hub.docker.com/r/robertdebock/fedora/)|all|
 |[opensuse](https://hub.docker.com/r/robertdebock/opensuse)|all|
 |[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
