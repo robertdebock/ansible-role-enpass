@@ -9,9 +9,12 @@
   when:
     - ansible_facts['os_family'] == "Debian"
   block:
+    # `apt-key` is gone in Debian 13, so `ansible.builtin.apt_key` fails.
     - name: Trust APT key
-      ansible.builtin.apt_key:
+      ansible.builtin.get_url:
         url: "https://apt.enpass.io/keys/enpass-linux.key"
+        dest: /etc/apt/trusted.gpg.d/enpass.asc
+        mode: "0644"
         validate_certs: false
 
     - name: Add APT repository
